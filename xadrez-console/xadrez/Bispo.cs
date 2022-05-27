@@ -45,7 +45,7 @@ namespace xadrez
                 {
                     break;
                 }
-                pos.definirValores(pos.linha + 1, pos.coluna + 1);
+                pos.definirValores(pos.linha - 1, pos.coluna + 1);
             }
             //SE
             pos.definirValores(posicao.linha + 1, posicao.coluna + 1);
